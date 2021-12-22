@@ -1,0 +1,158 @@
+.header,
+.random_information,
+.quote,
+.call,
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+    padding: 64px;
+}
+
+.call_box {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 30px;
+    padding: 32px;
+    border: 1px solid black;
+    background-color: #3882f6;
+    width: 60%;
+    border-radius: 25px;
+    font-size: 20px;
+    color: white;
+}
+
+.call_box_left {
+    padding: 32px;
+}
+
+.call_box_right {
+    display: flex;
+    align-self: center;
+}
+
+.call_box_right>button {
+    background: #3882f6;
+    border: 1px solid white;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+}
+
+.quote_text {
+    font-style: italic;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.quote_text,
+.quote_author {
+    display: flex;
+    width: 40%;
+    padding: 16px;
+}
+
+.quote_author {
+    display: flex;
+    justify-content: flex-end;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.header {
+    padding: 0;
+    background-color: #1f2937;
+}
+
+.footer {
+    background-color: #1f2937;
+    color: #f9fAf8;
+}
+
+.grouped {
+    display: flex;
+    width: fit-content;
+
+}
+.combo {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+    max-width: 60%;
+    padding: 32px;
+}
+
+.header_top,
+.header_bottom {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    padding: 32px;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.header_links {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9fAf8;
+    font-weight: bold;
+}
+
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1f2937;
+}
+
+.image_text {
+    display: flex;
+    color: grey;
+    max-width: 200px;
+    flex-wrap: wrap;
+}
+
+.combo>img {
+    max-width: 200px;
+}
+
+button {
+    background: #3882f6;
+    border: 1px solid #3882f6;
+    color: white;
+    padding: 16px 32px;
+    border-radius: 8px;
+    font-size: 18px;
+}
+
+a {
+    color: #e5e7eb;
+    text-decoration: none;
+}
+
+h4 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9fAf8;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
